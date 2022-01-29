@@ -22,7 +22,7 @@ class somaController extends Controller
             logger()->error('Divisor zero!');
             return false;
         }
-        logger()->info('Div feita!');
+        logger()->info('Div feita');
         $div = $num1/$num2;
         return $div;
     }
